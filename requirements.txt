@@ -1,0 +1,14 @@
+# requirements.txt : please install these library before run code
+# pip install -r requirements.txt
+
+# Telegram bot API
+python-telegram-bot
+
+# NumPy for numerical operations
+numpy
+
+# Khmer natural language toolkit
+khmer-nltk
+
+# PyTorch for machine learning
+torch
