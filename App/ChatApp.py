@@ -27,7 +27,7 @@ def bag_of_words(tokenized_sentence, words):
     return bag
 
 # Loading and preprocessing data from intents.json
-with open('./data_intents.json', 'r', encoding='utf-8') as f:
+with open('../Data/data_intents.json', 'r', encoding='utf-8') as f:
     intents = json.load(f)
 
 
@@ -96,7 +96,7 @@ class ChatDataset(Dataset):
 # Loading data and initializing model
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('./data_intents.json', 'r', encoding='utf-8') as f:
+with open('../Data/data_intents.json', 'r', encoding='utf-8') as f:
     intents = json.load(f)
 
 

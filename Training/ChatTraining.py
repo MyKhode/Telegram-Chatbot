@@ -29,7 +29,7 @@ def bag_of_words(tokenized_sentence, words):
     return bag
 
 # Load and preprocess data from intents.json
-with open('./data_intents.json', 'r', encoding='utf-8') as f:
+with open('../Data/data_intents.json', 'r', encoding='utf-8') as f:
     intents = json.load(f)
 
 all_words = []
@@ -115,7 +115,7 @@ for epoch in range(num_epochs):
         print(f'Epoch [{epoch + 1}/{num_epochs}], Loss: {loss.item():.4f}')
 
 # Save trained model
-torch.save(model.state_dict(), './data.pth')
+torch.save(model.state_dict(), '../data.pth')
 print('Training complete. Model saved.')
 
 # Evaluation
