@@ -51,6 +51,22 @@ To get the quick way of using this code package, please install requirement.txt 
 - Make sure u aready istall library I mentioned.
 (if u have any issue, U can contact me by Telegram Directly @SOYTET)
 
+## 🔯 Demo
+
+#### Run the ChatApp Scripts to Excute Telegram integration and Bot response after training finish
+```bash
+Python ./App/ChatApp.py
+```
+![Screenshot 2024-05-28 180135](https://github.com/SOYTET/Telegram-Chatbot/assets/132768132/422ad075-38b3-45aa-b39d-9544491f9bea)
+
+
+#### While Running ChatApp.py Script, so u can make some chat with Telegram Bot which u integrate with your own
+```bash
+សួស្ដីបង
+```
+![Screenshot 2024-05-28 180224 (1)](https://github.com/SOYTET/Telegram-Chatbot/assets/132768132/d7462838-f301-4723-b52a-aa4efe63e204)
+
+
 ### ✍️ Citation
 
 ```bibtex
