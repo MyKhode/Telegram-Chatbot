@@ -43,7 +43,13 @@ pip install torch
 
 [[Blog]](https://ikhode.blogspot.com/)
 
-To get the quick way of using this code package, please install requirement.txt  and read the comment in code header before run that code script
+To get the quick way of using this code package, please install requirement.txt  and read the comment in code header before run that code script. 
+#### Some Mention
+- Check folder directory 
+- Check Bot Api 
+- Check Bot Username
+- Make sure u aready istall library I mentioned.
+(if u have any issue, U can contact me by Telegram Directly @SOYTET)
 
 ### ✍️ Citation
 
