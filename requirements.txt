@@ -2,13 +2,13 @@
 # pip install -r requirements.txt
 
 # Telegram bot API
-python-telegram-bot
+python-telegram-bot == 21.4
 
 # NumPy for numerical operations
-numpy
+numpy == 1.26.1
 
 # Khmer natural language toolkit
-khmer-nltk
+khmer-nltk == 1.6
 
 # PyTorch for machine learning
-torch
+torch == 2.1.2

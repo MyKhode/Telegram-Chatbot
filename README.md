@@ -46,6 +46,8 @@ pip install torch
 To get the quick way of using this code package, please install requirement.txt  and read the comment in code header before run that code script. 
 #### Some Mention
 - Check folder directory 
+- create virtual environment with "myEnv" folder
+- install with requrements version module
 - Check Bot Api 
 - Check Bot Username
 - Make sure u aready istall library I mentioned.
