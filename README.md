@@ -41,7 +41,7 @@ pip install torch
 
 ## 🏹 Quick tour
 
-[[Blog]](https://ikhode.blogspot.com/)
+[[Official Blog Post Website Url]](https://www.ikhode.site/posts/khmer-telegram-chatbot/)
 
 To get the quick way of using this code package, please install requirement.txt  and read the comment in code header before run that code script. 
 #### Some Mention
