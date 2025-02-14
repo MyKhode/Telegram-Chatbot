@@ -5,10 +5,10 @@
 python-telegram-bot == 21.4
 
 # NumPy for numerical operations
-numpy == 1.26.1
+numpy == 2.0
 
 # Khmer natural language toolkit
 khmer-nltk == 1.6
 
 # PyTorch for machine learning
-torch == 2.1.2
+torch == 2.6.0
