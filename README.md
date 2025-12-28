@@ -8,28 +8,6 @@
 <img alt="GitHub Release" src="https://img.shields.io/github/v/release/SOYTET/Telegram-Chatbot">
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/SOYTET/Telegram-Chatbot">
 
-
-intents.json
-   ↓
-Read patterns & tags
-   ↓
-Khmer Tokenization (khmernltk.word_tokenize)
-   ↓
-Build Vocabulary (all_words)
-   ↓
-Bag of Words Encoding
-   ↓
-X_train (features) + y_train (labels)
-   ↓
-PyTorch Dataset + DataLoader
-   ↓
-Neural Network (SimpleNet)
-   ↓
-Training Loop (Forward → Loss → Backprop → Update)
-   ↓
-Save model weights + metadata (data.pth)
-
-
 </div>
 
 ### This will never happen if Khmer NLTK Module doesn't exist, thanks 🙏
@@ -42,6 +20,35 @@ Save model weights + metadata (data.pth)
 - [X] Model Evaluation
 - [X] Telegram Bot Integration
 - [ ] Make it more inteligent and flexible
+
+# Training Pipeline Flow
+
+- **intents.json**
+  ↓
+- **Read patterns & tags**
+  ↓
+- **Khmer Tokenization** (`khmernltk.word_tokenize`)
+  ↓
+- **Build Vocabulary** (`all_words`)
+  ↓
+- **Bag of Words Encoding**
+  ↓
+- **Create Training Data**
+  - `X_train` (features)
+  - `y_train` (labels)
+  ↓
+- **PyTorch Dataset & DataLoader**
+  ↓
+- **Neural Network Model** (`SimpleNet`)
+  ↓
+- **Training Loop**
+  - Forward pass
+  - Loss computation
+  - Backpropagation
+  - Weight update
+  ↓
+- **Save Model Weights & Metadata** (`data.pth`)
+
 
 ## 💪Installation
 
