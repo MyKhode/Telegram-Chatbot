@@ -9,6 +9,25 @@
 <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/SOYTET/Telegram-Chatbot">
 
 
+intents.json
+   ↓
+Read patterns & tags
+   ↓
+Khmer Tokenization (khmernltk.word_tokenize)
+   ↓
+Build Vocabulary (all_words)
+   ↓
+Bag of Words Encoding
+   ↓
+X_train (features) + y_train (labels)
+   ↓
+PyTorch Dataset + DataLoader
+   ↓
+Neural Network (SimpleNet)
+   ↓
+Training Loop (Forward → Loss → Backprop → Update)
+   ↓
+Save model weights + metadata (data.pth)
 
 
 </div>
